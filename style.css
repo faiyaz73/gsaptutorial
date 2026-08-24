@@ -9,6 +9,7 @@ html , body{
     width: 100%;
     background-color: black;
 }
+/* *
 h1{
     color: blue;
 }
@@ -30,3 +31,63 @@ h1{
 h1{
     color:white;
 }
+ */
+
+ /* #box{
+   width: 100px;
+      height: 100px;
+   background-color: blue;
+ } */
+
+ #item1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+ }
+ #item2{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+ }
+ #item3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+ }
+
+
+ nav{
+    
+    display:flex;
+    color:white;
+    justify-content: space-between;
+    /* background-color:rgb(33, 178, 7); */
+    align-items: center;
+    padding:20px;
+    text-transform: uppercase;
+    font-size:12px;
+    
+
+ }
+ #box{
+    display: flex;
+    /* border:2px solid yellow; */
+    gap:30px
+ 
+
+ }
+
+ h3{
+    color:white;
+    font-size:60px;
+    align-items:center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 900;
+
+ }
+ 
