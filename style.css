@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+h1{
+    color: blue;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(15, 172, 219);
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(219, 15, 205);
+}
+h1{
+    color:white;
+}
