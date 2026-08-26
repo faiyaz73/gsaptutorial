@@ -15,7 +15,8 @@ gsap.from("#page2 #box", {
         scroller:"body",
         markers:true,
         start:"top 60%",
-        scrub:true      //  jaise jaise window upar niche krege animate hoga 
+        scrub:true,      //  jaise jaise window upar niche krege animate hoga  number v de sakte h 1-5 bich smoothness ke liye
+        pin:
     }
     
 })

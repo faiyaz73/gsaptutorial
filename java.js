@@ -125,7 +125,7 @@ value.from("#box h2",{
     opacity:0,
     stagger:0.1,
     duration:0.3,
-    stagger:1
+   
 })
 
 value.from("h3",{
